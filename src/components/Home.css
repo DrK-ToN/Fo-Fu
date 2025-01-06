@@ -1,0 +1,53 @@
+.Home {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.main-content {
+  position: absolute;
+  width: 300px; /* Ajuste conforme necessário */
+  height: 300px;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.nuvem {
+    position: absolute; /* Para que fique atrás de outros componentes */
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 20px;
+    margin: auto;
+    width: 550px;
+    height: 400px;
+    z-index: -1; /* Coloca o background atrás de outros elementos */
+  }
+
+  .nome {
+    position: absolute; /* Para que fique atrás de outros componentes */
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 290px;
+    height: 240px;
+    z-index: -1; /* Coloca o background atrás de outros elementos */
+  }
+
+.nome:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+
+
+

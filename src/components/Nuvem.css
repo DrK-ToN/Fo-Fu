@@ -1,0 +1,6 @@
+.Nuvem {
+    position: absolute; /* Para que fique atrás de outros componentes */
+    width: 250px;
+    height: 250px;
+    z-index: -1; /* Coloca o background atrás de outros elementos */
+  }

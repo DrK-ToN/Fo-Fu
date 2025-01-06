@@ -1,0 +1,11 @@
+.nome {
+  grid-area: nome;
+  position: fixed; /* Para que fique atrás de outros componentes */
+  width: 250px;
+  height: 200px;
+  z-index: -1; /* Coloca o background atrás de outros elementos */
+}
+
+.nome:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
